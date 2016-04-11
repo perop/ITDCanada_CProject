@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ACC972F1CBC277A0004ADAA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC972E1CBC277A0004ADAA /* main.c */; };
+		7ACC97371CBC27A40004ADAA /* april11.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC97351CBC27A40004ADAA /* april11.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7ACC97291CBC277A0004ADAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7ACC972B1CBC277A0004ADAA /* ITDCanada_CProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ITDCanada_CProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACC972E1CBC277A0004ADAA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7ACC97351CBC27A40004ADAA /* april11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = april11.c; sourceTree = "<group>"; };
+		7ACC97361CBC27A40004ADAA /* april11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = april11.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ACC97281CBC277A0004ADAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ACC97221CBC277A0004ADAA = {
+			isa = PBXGroup;
+			children = (
+				7ACC972D1CBC277A0004ADAA /* ITDCanada_CProject */,
+				7ACC972C1CBC277A0004ADAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ACC972C1CBC277A0004ADAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC972B1CBC277A0004ADAA /* ITDCanada_CProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACC972D1CBC277A0004ADAA /* ITDCanada_CProject */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC972E1CBC277A0004ADAA /* main.c */,
+				7ACC97351CBC27A40004ADAA /* april11.c */,
+				7ACC97361CBC27A40004ADAA /* april11.h */,
+			);
+			path = ITDCanada_CProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ACC972A1CBC277A0004ADAA /* ITDCanada_CProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACC97321CBC277A0004ADAA /* Build configuration list for PBXNativeTarget "ITDCanada_CProject" */;
+			buildPhases = (
+				7ACC97271CBC277A0004ADAA /* Sources */,
+				7ACC97281CBC277A0004ADAA /* Frameworks */,
+				7ACC97291CBC277A0004ADAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITDCanada_CProject;
+			productName = ITDCanada_CProject;
+			productReference = 7ACC972B1CBC277A0004ADAA /* ITDCanada_CProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ACC97231CBC277A0004ADAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TakahashiMai;
+				TargetAttributes = {
+					7ACC972A1CBC277A0004ADAA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7ACC97261CBC277A0004ADAA /* Build configuration list for PBXProject "ITDCanada_CProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7ACC97221CBC277A0004ADAA;
+			productRefGroup = 7ACC972C1CBC277A0004ADAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ACC972A1CBC277A0004ADAA /* ITDCanada_CProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ACC97271CBC277A0004ADAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACC97371CBC27A40004ADAA /* april11.c in Sources */,
+				7ACC972F1CBC277A0004ADAA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7ACC97301CBC277A0004ADAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7ACC97311CBC277A0004ADAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7ACC97331CBC277A0004ADAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ACC97341CBC277A0004ADAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ACC97261CBC277A0004ADAA /* Build configuration list for PBXProject "ITDCanada_CProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACC97301CBC277A0004ADAA /* Debug */,
+				7ACC97311CBC277A0004ADAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACC97321CBC277A0004ADAA /* Build configuration list for PBXNativeTarget "ITDCanada_CProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACC97331CBC277A0004ADAA /* Debug */,
+				7ACC97341CBC277A0004ADAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ACC97231CBC277A0004ADAA /* Project object */;
+}
