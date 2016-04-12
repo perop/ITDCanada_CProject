@@ -11,6 +11,7 @@
 		7AEC683F1CBD5EFB0087A5FE /* switchCase.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC683D1CBD5EFB0087A5FE /* switchCase.c */; };
 		7AEC68421CBD5F650087A5FE /* sortingArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC68401CBD5F650087A5FE /* sortingArrays.c */; };
 		7AEC68451CBD60080087A5FE /* scopeExersice.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC68431CBD60080087A5FE /* scopeExersice.c */; };
+		7AEC68481CBD62730087A5FE /* arrayExersice.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC68461CBD62730087A5FE /* arrayExersice.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7AEC68411CBD5F650087A5FE /* sortingArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortingArrays.h; sourceTree = "<group>"; };
 		7AEC68431CBD60080087A5FE /* scopeExersice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scopeExersice.c; sourceTree = "<group>"; };
 		7AEC68441CBD60080087A5FE /* scopeExersice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scopeExersice.h; sourceTree = "<group>"; };
+		7AEC68461CBD62730087A5FE /* arrayExersice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arrayExersice.c; sourceTree = "<group>"; };
+		7AEC68471CBD62730087A5FE /* arrayExersice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrayExersice.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				7ACC972E1CBC277A0004ADAA /* main.c */,
+				7AEC68461CBD62730087A5FE /* arrayExersice.c */,
+				7AEC68471CBD62730087A5FE /* arrayExersice.h */,
 				7AEC68401CBD5F650087A5FE /* sortingArrays.c */,
 				7AEC68411CBD5F650087A5FE /* sortingArrays.h */,
 				7AEC683D1CBD5EFB0087A5FE /* switchCase.c */,
@@ -134,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ACC972F1CBC277A0004ADAA /* main.c in Sources */,
+				7AEC68481CBD62730087A5FE /* arrayExersice.c in Sources */,
 				7AEC683F1CBD5EFB0087A5FE /* switchCase.c in Sources */,
 				7AEC68451CBD60080087A5FE /* scopeExersice.c in Sources */,
 				7AEC68421CBD5F650087A5FE /* sortingArrays.c in Sources */,
