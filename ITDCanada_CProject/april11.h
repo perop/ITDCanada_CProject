@@ -12,3 +12,13 @@
 #include <stdio.h>
 
 #endif /* april11_h */
+
+
+//bubble sort
+//loop to control number of passes
+//
+//for(pass = 1; pass < SIZE; ++pass ){
+//// loop to contro; number of comparisions per pass
+//    for {i = }
+//    }
+//    
