@@ -7,12 +7,13 @@
 //
 
 #include <stdio.h>
-#include "april11.h"
-#include "april12.h"
+#include "scopeExersice.h"
 
 int main(int argc, const char * argv[]) {
     
-    switchCase();
+    scopeExersice();
+    useLocal();
+    useStaticLocal();
     
       return 0;
 }

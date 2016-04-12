@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7ACC972F1CBC277A0004ADAA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC972E1CBC277A0004ADAA /* main.c */; };
-		7ACC97371CBC27A40004ADAA /* april11.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC97351CBC27A40004ADAA /* april11.c */; };
-		7AEC683C1CBD58E80087A5FE /* april12.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC683A1CBD58E80087A5FE /* april12.c */; };
 		7AEC683F1CBD5EFB0087A5FE /* switchCase.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC683D1CBD5EFB0087A5FE /* switchCase.c */; };
+		7AEC68421CBD5F650087A5FE /* sortingArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC68401CBD5F650087A5FE /* sortingArrays.c */; };
+		7AEC68451CBD60080087A5FE /* scopeExersice.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC68431CBD60080087A5FE /* scopeExersice.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +28,12 @@
 /* Begin PBXFileReference section */
 		7ACC972B1CBC277A0004ADAA /* ITDCanada_CProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ITDCanada_CProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACC972E1CBC277A0004ADAA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		7ACC97351CBC27A40004ADAA /* april11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = april11.c; sourceTree = "<group>"; };
-		7ACC97361CBC27A40004ADAA /* april11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = april11.h; sourceTree = "<group>"; };
-		7AEC683A1CBD58E80087A5FE /* april12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = april12.c; sourceTree = "<group>"; };
-		7AEC683B1CBD58E80087A5FE /* april12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = april12.h; sourceTree = "<group>"; };
 		7AEC683D1CBD5EFB0087A5FE /* switchCase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = switchCase.c; sourceTree = "<group>"; };
 		7AEC683E1CBD5EFB0087A5FE /* switchCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switchCase.h; sourceTree = "<group>"; };
+		7AEC68401CBD5F650087A5FE /* sortingArrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sortingArrays.c; sourceTree = "<group>"; };
+		7AEC68411CBD5F650087A5FE /* sortingArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortingArrays.h; sourceTree = "<group>"; };
+		7AEC68431CBD60080087A5FE /* scopeExersice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scopeExersice.c; sourceTree = "<group>"; };
+		7AEC68441CBD60080087A5FE /* scopeExersice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scopeExersice.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				7ACC972E1CBC277A0004ADAA /* main.c */,
-				7ACC97351CBC27A40004ADAA /* april11.c */,
-				7ACC97361CBC27A40004ADAA /* april11.h */,
-				7AEC683A1CBD58E80087A5FE /* april12.c */,
+				7AEC68401CBD5F650087A5FE /* sortingArrays.c */,
+				7AEC68411CBD5F650087A5FE /* sortingArrays.h */,
 				7AEC683D1CBD5EFB0087A5FE /* switchCase.c */,
 				7AEC683E1CBD5EFB0087A5FE /* switchCase.h */,
-				7AEC683B1CBD58E80087A5FE /* april12.h */,
+				7AEC68431CBD60080087A5FE /* scopeExersice.c */,
+				7AEC68441CBD60080087A5FE /* scopeExersice.h */,
 			);
 			path = ITDCanada_CProject;
 			sourceTree = "<group>";
@@ -133,10 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACC97371CBC27A40004ADAA /* april11.c in Sources */,
-				7AEC683C1CBD58E80087A5FE /* april12.c in Sources */,
 				7ACC972F1CBC277A0004ADAA /* main.c in Sources */,
 				7AEC683F1CBD5EFB0087A5FE /* switchCase.c in Sources */,
+				7AEC68451CBD60080087A5FE /* scopeExersice.c in Sources */,
+				7AEC68421CBD5F650087A5FE /* sortingArrays.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
