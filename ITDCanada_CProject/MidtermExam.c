@@ -7,3 +7,16 @@
 //
 
 #include "MidtermExam.h"
+
+int main(void){
+
+    int employee[10];
+    employee[0];
+    employee[1];
+    employee[2];
+    employee[3];
+    employee[4];
+    employee[5];
+    
+
+}

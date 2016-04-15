@@ -7,15 +7,13 @@
 //
 
 #include <stdio.h>
-#include "scopeExersice.h"
+#include "Assitnment1.h"
 
 int main(int argc, const char * argv[]) {
+
+    int a = mainAssignment1();
     
-    scopeExersice();
-    useLocal();
-    useStaticLocal();
-    
-      return 0;
+      return a;
 }
 
 

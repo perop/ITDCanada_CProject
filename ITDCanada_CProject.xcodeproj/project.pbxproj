@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A7AEBC01CBEAAD000BF6BD1 /* MidtermExam.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AEBBE1CBEAAD000BF6BD1 /* MidtermExam.c */; };
+		7A7AEBC31CBEBA2B00BF6BD1 /* Assitnment1.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AEBC11CBEBA2B00BF6BD1 /* Assitnment1.c */; };
 		7ACC972F1CBC277A0004ADAA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC972E1CBC277A0004ADAA /* main.c */; };
 		7AEC683F1CBD5EFB0087A5FE /* switchCase.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC683D1CBD5EFB0087A5FE /* switchCase.c */; };
 		7AEC68421CBD5F650087A5FE /* sortingArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC68401CBD5F650087A5FE /* sortingArrays.c */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		7A7AEBBE1CBEAAD000BF6BD1 /* MidtermExam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MidtermExam.c; sourceTree = "<group>"; };
 		7A7AEBBF1CBEAAD000BF6BD1 /* MidtermExam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtermExam.h; sourceTree = "<group>"; };
+		7A7AEBC11CBEBA2B00BF6BD1 /* Assitnment1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Assitnment1.c; sourceTree = "<group>"; };
+		7A7AEBC21CBEBA2B00BF6BD1 /* Assitnment1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assitnment1.h; sourceTree = "<group>"; };
 		7ACC972B1CBC277A0004ADAA /* ITDCanada_CProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ITDCanada_CProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACC972E1CBC277A0004ADAA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7AEC683D1CBD5EFB0087A5FE /* switchCase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = switchCase.c; sourceTree = "<group>"; };
@@ -80,9 +83,11 @@
 				7AEC683D1CBD5EFB0087A5FE /* switchCase.c */,
 				7AEC683E1CBD5EFB0087A5FE /* switchCase.h */,
 				7AEC68431CBD60080087A5FE /* scopeExersice.c */,
-				7A7AEBBE1CBEAAD000BF6BD1 /* MidtermExam.c */,
-				7A7AEBBF1CBEAAD000BF6BD1 /* MidtermExam.h */,
 				7AEC68441CBD60080087A5FE /* scopeExersice.h */,
+				7A7AEBBE1CBEAAD000BF6BD1 /* MidtermExam.c */,
+				7A7AEBC11CBEBA2B00BF6BD1 /* Assitnment1.c */,
+				7A7AEBC21CBEBA2B00BF6BD1 /* Assitnment1.h */,
+				7A7AEBBF1CBEAAD000BF6BD1 /* MidtermExam.h */,
 			);
 			path = ITDCanada_CProject;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ACC972F1CBC277A0004ADAA /* main.c in Sources */,
+				7A7AEBC31CBEBA2B00BF6BD1 /* Assitnment1.c in Sources */,
 				7AEC68481CBD62730087A5FE /* arrayExersice.c in Sources */,
 				7AEC683F1CBD5EFB0087A5FE /* switchCase.c in Sources */,
 				7A7AEBC01CBEAAD000BF6BD1 /* MidtermExam.c in Sources */,
