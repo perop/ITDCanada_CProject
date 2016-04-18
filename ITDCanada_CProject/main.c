@@ -7,13 +7,13 @@
 //
 
 #include <stdio.h>
-#include "Assitnment1.h"
+#include "pointer.h"
+#include "arrayPointer.h"
+
 
 int main(int argc, const char * argv[]) {
-
-    int a = mainAssignment1();
+   mainPointerClass();
     
-      return a;
+      return 0;
 }
-
 

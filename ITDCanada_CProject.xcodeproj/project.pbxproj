@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3B14361CC53FAB00395007 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B14341CC53FAB00395007 /* pointer.c */; };
+		7A3B14391CC54EF300395007 /* arrayPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B14371CC54EF300395007 /* arrayPointer.c */; };
 		7A7AEBC01CBEAAD000BF6BD1 /* MidtermExam.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AEBBE1CBEAAD000BF6BD1 /* MidtermExam.c */; };
 		7A7AEBC31CBEBA2B00BF6BD1 /* Assitnment1.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AEBC11CBEBA2B00BF6BD1 /* Assitnment1.c */; };
 		7ACC972F1CBC277A0004ADAA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC972E1CBC277A0004ADAA /* main.c */; };
@@ -29,6 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A3B14341CC53FAB00395007 /* pointer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
+		7A3B14351CC53FAB00395007 /* pointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointer.h; sourceTree = "<group>"; };
+		7A3B14371CC54EF300395007 /* arrayPointer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arrayPointer.c; sourceTree = "<group>"; };
+		7A3B14381CC54EF300395007 /* arrayPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrayPointer.h; sourceTree = "<group>"; };
 		7A7AEBBE1CBEAAD000BF6BD1 /* MidtermExam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MidtermExam.c; sourceTree = "<group>"; };
 		7A7AEBBF1CBEAAD000BF6BD1 /* MidtermExam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtermExam.h; sourceTree = "<group>"; };
 		7A7AEBC11CBEBA2B00BF6BD1 /* Assitnment1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Assitnment1.c; sourceTree = "<group>"; };
@@ -86,6 +92,10 @@
 				7AEC68441CBD60080087A5FE /* scopeExersice.h */,
 				7A7AEBBE1CBEAAD000BF6BD1 /* MidtermExam.c */,
 				7A7AEBC11CBEBA2B00BF6BD1 /* Assitnment1.c */,
+				7A3B14341CC53FAB00395007 /* pointer.c */,
+				7A3B14371CC54EF300395007 /* arrayPointer.c */,
+				7A3B14381CC54EF300395007 /* arrayPointer.h */,
+				7A3B14351CC53FAB00395007 /* pointer.h */,
 				7A7AEBC21CBEBA2B00BF6BD1 /* Assitnment1.h */,
 				7A7AEBBF1CBEAAD000BF6BD1 /* MidtermExam.h */,
 			);
@@ -148,9 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3B14391CC54EF300395007 /* arrayPointer.c in Sources */,
 				7ACC972F1CBC277A0004ADAA /* main.c in Sources */,
 				7A7AEBC31CBEBA2B00BF6BD1 /* Assitnment1.c in Sources */,
 				7AEC68481CBD62730087A5FE /* arrayExersice.c in Sources */,
+				7A3B14361CC53FAB00395007 /* pointer.c in Sources */,
 				7AEC683F1CBD5EFB0087A5FE /* switchCase.c in Sources */,
 				7A7AEBC01CBEAAD000BF6BD1 /* MidtermExam.c in Sources */,
 				7AEC68451CBD60080087A5FE /* scopeExersice.c in Sources */,
